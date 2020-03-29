@@ -1,0 +1,30 @@
+#Check django installed or not.
+django-admin
+django-admin startproject
+
+#To fire django server
+python3 manage.py  runserver 
+
+#Create app in django project
+django-admin startapp jobs
+#Need to edit setting.py file in django project after addition of #new app
+#urls.py is a file to mention starting point of website
+
+#Library required for storing images in db 
+pip3 install pillow
+
+#Postgress create db. Need to modify seetings.py databases file
+CREATE DATABASE portfolio
+
+#PG installed at 
+#/Applications/Postgres.app/Contents/Versions/latest/bin
+
+#Migration set up your db with project
+python3 manage.py makemigration
+python3 manage.py migrate
+
+#Create super user. 
+python3 manage.py createsuperuser
+
+#To collect/Detect the static changes 
+python3 manage.py  collectstatic
