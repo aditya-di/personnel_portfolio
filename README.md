@@ -16,4 +16,10 @@ Inside job,
 * models.py : Define classes and gives database access API
 * views.py : Takes web request and returns a web response.
 
-The screenshot files are: 
+## The screenshot files are: 
+* Reference_screenshot_1.png
+* Reference_screenshot_2.png
+
+## Projects command in file: 
+ProjectCommands
+
